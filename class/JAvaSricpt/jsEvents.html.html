@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>
+        js
+    </title>
+
+</head>
+
+<body>
+    <input type="number" id="num-1" placeholder="num 1">
+    <input type="number" id="num-2" placeholder="num 2">
+    <input type="number" id="sum" placeholder="sum" readonly>
+    <br><br>
+    <button onclick="sum()">result</button>
+
+
+    <script>
+        function sum() {
+            let num1 = Number(document.getElementById("num-1").value)
+            let num2 = Number(document.getElementById("num-2").value)
+            let sum = num1 + num2
+
+
+            document.getElementById("sum").value = String(sum)
+        }
+
+
+    // Events.any action performed by the user on the browser screen
+    // 1.click-> onclick
+
+    // operators:
+    // 1. Arithmetic operatiors: +,-,*,%,/
+
+    //number() inbuild constructuctor -> convert a string into number
+    // functions: blocks of statements containing logic to be used multiple times
+    </script>
+</body>
+
+</html>

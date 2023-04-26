@@ -1,0 +1,48 @@
+body {
+    background: #d6bcff;
+}
+
+#container {
+    margin: 190px auto;
+    text-align: center;
+    width: fit-content;
+    background: #fff;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+#outer-div {
+    display: flex;
+}
+
+#left-section,
+#right-section {
+    padding: 10px;
+    margin: 10px;
+}
+
+#bill-input,
+#people-input,
+#reset {
+    padding: 10px;
+    margin: 10px;
+}
+
+#right-section {
+    background: #9c60ff;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+#right-part-1,
+#right-par-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tip-buttons {
+    width: 100px;
+}

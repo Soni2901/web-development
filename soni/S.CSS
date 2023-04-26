@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.main{
+    width: 100;
+}
+nav{
+    width: 100%;
+    /* background-color: black; */
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    transition: 0.5s all ease;
+}
+ul{
+    margin: 0px;
+}
+ul li{
+    float: left;
+    padding: 0px 10px;
+    list-style: none;
+    }
+    ul li a:hover{
+        color: red;
+
+    }
+
+    .header{
+        background-image: url('food.jpg');
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: beige;
+    }
